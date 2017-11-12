@@ -1,8 +1,8 @@
 <h1 style="text-align: center;font-weight: bold;">Zilu Tang</h1>
 
-tangziluwh@163.com
-College of Chemistry and Molecular Sciences Wuhan University
-Wuhan University, Wuhan, Hubei, P.R.China, 430072 
+<h1 style="text-align: center;">tangziluwh@163.com</h1>  
+<h1 style="text-align: center;">College of Chemistry and Molecular Sciences Wuhan University</h1>  
+<h1 style="text-align: center;">Wuhan University, Wuhan, Hubei, P.R.China, 430072</h1>  
 
 Education
 	B.S. College of Chemistry and Molecular Sciences, Wuhan University
