@@ -1,0 +1,22 @@
+<!-- SCRIPTS -->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">Cufon.replace('h1,h2');</script>
+{% if site.mathjax %}
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    processEscapes: true
+  }   
+});
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML-full"></script>
+{% endif %}

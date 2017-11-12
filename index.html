@@ -1,0 +1,197 @@
+---
+layout: page
+---
+
+<div class="entry">
+  <!-- Begin Image -->
+  <img class="portrait" src="{{ site.info.avatar }}" alt="{{ site.info.name }}" />
+  <!-- End Image -->
+  <!-- Begin Personal Information -->
+  <div class="self">
+    <h1 class="name">{{ site.info.name }} <br />
+      <span>{{ site.info.description }}</span></h1>
+    <ul>
+      <li class="ad">{{ site.info.address }}</li>
+      <li class="mail">{{ site.info.email }}</li>
+      <li class="tel">{{ site.info.tel }}</li>
+      <li class="web">{{ site.info.web }}</li>
+    </ul>
+  </div>
+  <!-- End Personal Information -->
+  <!-- Begin Social -->
+  <div class="social">
+    <ul>
+      <li><a class='north' href="{{ site.info.pdf }}" title="Download .pdf"><img src="images/icn-save.jpg" alt="Download the pdf version" /></a></li>
+      <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+    </ul>
+  </div>
+  <!-- End Social -->
+</div>
+
+<!-- Begin Into -->
+<div class="entry">
+  <h2>INTRO</h2>
+  <p>{{ site.intro.content }}</p>
+</div>
+<!-- End Intro -->
+
+<!-- Begin Education -->
+<div class="entry">
+  <h2>EDUCATION</h2>
+  {% for ed in site.education %}
+  <div class="content">
+    <h3>{{ ed.period }}</h3>
+    <p>{{ ed.institute }} <br />
+      <em>{{ ed.school }}</em></p>
+  </div>
+  {% endfor %}
+</div>
+<!-- End Education -->
+
+{% if site.performance.display %}
+<!-- Begin Performance -->
+<div class="entry">
+  <h2>GRADE</h2>
+  <div class="content">
+    <h3>GPA</h3>
+    <p>{{ site.performance.gpa }}</p>
+  </div>
+  <div class="content">
+    <h3>Rank</h3>
+    <p>{{ site.performance.rank }}</p>
+  </div>
+</div>
+<!-- End Performance -->
+{% endif %}
+
+{% if site.stdtest.display %}
+<!-- Begin TOEFL & GRE -->
+<div class="entry">
+  <h2>TESTS</h2>
+  <div class="content">
+    <h3>TOEFL</h3>
+    <p>{{ site.stdtest.toefl }}</p>
+  </div>
+  <div class="content">
+    <h3>GRE</h3>
+    <p>{{ site.stdtest.gre }}</p>
+  </div>
+</div>
+<!-- End TOEFL & GRE -->
+{% endif %}
+
+<!-- Begin Experience -->
+<div class="entry">
+  <h2>EXPERIENCE</h2>
+  {% for exp in site.experience %}
+  <div class="content">
+    <h3>{{ exp.period }}</h3>
+    <p>{{ exp.institute }} <br />
+      <em>{{ exp.desc }}</em></p>
+    <ul class="info">
+      {% for proj in exp.project %}
+      <li>{{ proj }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+<!-- End Experience -->
+
+{% if site.skill.display %}
+<!-- Begin Skills -->
+<div class="entry">
+  <h2>SKILLS</h2>
+  <div class="content">
+    <h3>Software Knowledge</h3>
+    <ul class="skills">
+      {% for sft in site.skill.software %}
+      <li>{{ sft }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="content">
+    <h3>Languages</h3>
+    <ul class="skills">
+      {% for lang in site.skill.language %}
+      <li>{{ lang }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<!-- End Skills -->
+{% endif %}
+
+<!-- Begin Publications -->
+<div class="entry">
+  <h2>PUBLICATIONS</h2>
+  {% for pub in site.publication %}
+  <div class="content">
+    <h3>{{ pub.time }}</h3>
+    <p>{{ pub.title }}</p>
+  </div>
+  {% endfor %}
+</div>
+<!-- End Publications -->
+
+{% if site.patent.display %}
+<!-- Begin Patents -->
+<div class="entry">
+  <h2>PATENTS</h2>
+  {% for pat in site.patent.list %}
+  <div class="content">
+    <h3>{{ pat.time }}</h3>
+    <p>{{ pat.title }}</p>
+  </div>
+  {% endfor %}
+</div>
+<!-- End Patents -->
+{% endif %}
+
+<!-- Begin Scholarships & Achievement -->
+<div class="entry">
+  <h2>ACHIEVEMENT</h2>
+  <div class="content">
+    <h3>Scholarships</h3>
+    <ul class="info">
+    {% for sch in site.scholarship %}
+    <li>{{ sch.title }} <br />
+      <em>{{ sch.time }}</em></li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="content">
+    <h3>Achievement</h3>
+    <ul class="info">
+    {% for ach in site.achievement %}
+    <li>{{ ach.title }} <br />
+      <em>{{ ach.time }}</em></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+<!-- End Scholarships & Achievement -->
+
+{% if site.activity.display %}
+<!-- Begin Activities -->
+<div class="entry">
+  <h2>ADDITIONAL</h2>
+  <div class="content">
+    <h3>Hobbies</h3>
+    <ul class="skills">
+      {% for hb in site.activity.hobby %}
+      <li>{{ hb }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="content">
+    <h3>Experience</h3>
+    <ul class="info">
+      {% for exp in site.activity.experience %}
+      <li>{{ exp }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<!-- End Activities -->
+{% endif %}

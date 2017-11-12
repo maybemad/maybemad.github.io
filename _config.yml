@@ -1,0 +1,127 @@
+# Site settings
+title:              the CV template
+author:             your name
+email:              you email
+description:        desc
+keywords:           [kw1, kw2, kw3]
+url:                http://mageluer.coding.me/CV
+
+# Jekyll
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+
+########################################################################
+# Begin CV Edit
+########################################################################
+
+# Personal Info
+info:
+  avatar:          images/image.jpg
+  name:            Zilu Tang
+  description:     I'm a drinker
+  address:         Wuhan University Wuhan, China
+  email:           tangziluwh@163.com
+  tel:             +86-15207175816
+  web:             www.maybemad.github.io
+
+# Intro
+intro:
+  display:         true
+  content:         stn to show sdf sdf libyaml-0.1.7-2.fc26.x86_64 YAML 1.1 parser and emitter written in
+
+# Education
+education:
+  - period:        Sep 2015 - present
+    institute:     Wuhan University of Technology
+    school:        Materials Physics at School of Materials Science and Engineering
+  - period:        Sep 2014 - Oct 2015
+    institute:     Wuhan University of Technology
+    school:        Business Management at School of Management
+
+# Performance
+performance:
+  display:         true
+  gpa:             3.99
+  rank:            1/1000
+
+# TOEFL & GRE
+stdtest:
+  display:         true
+  toefl:           120
+  gre:             340
+
+# Experience
+experience:
+  - period:        Sep 2015 - present
+    institute:     State Key Laboratory of Advanced Technology for Materials Synthesis and Processing (Wuhan University of Technology)
+    desc:          Prof. Gang-qin Shao as Advisor
+    project:
+      -            Synthesis and properties analysis of Lithium Ion Batteries and SrMgF$_4$ 
+      -            Study the formation mechanism of hexagonal ferrite Sr$_3$Co$_2$Fe$_{24}$O$_{41}$ pure phase
+      -            Investigating the optimization of SrMgF$_4$ 
+  - period:        Sep 2015 - present
+    institute:     WHU
+    desc:          dss
+    project:
+      -            $a^2+b^c=c^2$ sfdlkj sf ljsdf lkjsf dds
+      -            slaj sdfl sdflj sdflkjsf dlkj sfdlkj sf ljsdf lkjsf dds
+      -            slaj sdfl sdflj sdflkjsf dlkj sfdlkj sf ljsdf lkjsf dds
+
+# Skills
+skill:
+  display:        true 
+  software:       [Word, Excel, PowerPoint, EndNote, Origin, Jade, Highscore, Materials Studio ]
+  language:       [Ruby on Rails, ActionScript, C++]
+
+# Publications
+publication:
+  - time:          2017-04-18
+    title:         G.-Q. Shao, S.-H. Fan, J.-W. Mao, F.-F. Ma, C. Zhu, A.-L. Zhang, <u>G.-Z. Xie</u>, J.- L. Yan, J.-N. Gu, Crystal structures of LiVPO$_4$F$_{0.6}$O$_{0.4}$ (CSD 432933), LiFe$_{0.3}$V$_{0.7}$PO$_4$F$_{0.72}$O$_{0.28}$ (CSD 432934), LiFe$_{0.5}$V$_{0.5}$PO$_4$F$_{0.8}$O$_{0.2}$ (CSD 432935), LiFe$_{0.7}$V$_{0.3}$PO$_4$F$_{0.88}$O$_{0.12}$ (CSD 432936) and LiFe$_{0.9}$V$_{0.1}$PO$_4$F$_{0.96}$O$_{0.04}$ (CSD 432937), Inorganic Crystal Structure Database, FIZ Karlsruhe-Leibniz Inst. for Inform. Infrastr., Germany, 2017.4.18
+  - time:          2017-03-20
+    title:         G.-Q. Shao, F.-F. Ma, J.-W. Mao, S.-H. Fan, A.-L. Zhang, <u>G.-Z. Xie</u>, C. Zhu, J.-N. Gu, J.-L. Yan, Crystal Structure of triplite LiFeSO$_4$F, CSD-432778, Inorganic Crystal Structure Database, FIZ Karlsruhe-Leibniz Inst. for Inform. Infrastr., Germany, 2017.3.20
+  - time:          submitted
+    title:         F.-F. Ma, J.-W. Mao, G.-Q. Shao, S.-H. Fan, C. Zhu, A.-L. Zhang, <u>G.-Z. Xie</u>, J.-N. Gu, and J.-L. Yan, Structure of triplite LiFeSO$_4$F powder synthesized through an ambient two-step solid-state route, Powder Diffraction
+  - time:          submitted
+    title:         S.-H. Fan, G.-Q. Shao, J.-W. Mao, F.-F. Ma, C. Zhu, A.-L. Zhang, <u>G.-Z. Xie</u>, J.-L. Yan and J.-N. Gu, Crystal structure and electrochemical properties of LiFe$_{1-x}$V$_x$PO$_4$F$_{1-δ}$O$_δ$ cathode materials for lithium-ion batteries, Electrochimica Acta
+
+# Patents
+patent:
+  display:         true
+  list:
+    - time:        2017-08-31
+      title:       邵刚勤，柳金华，毛家威，<u>谢贵震</u>，范书豪，马霏霏，张安乐，“一种高温稳定的氟磷酸铁锂型锂离子电池材料及其制备方法”，中国发明专利201610226791.9，2016.4.14申请，公开号CN 105914344A，公开日2016.08.31
+    - time:        2017-05-03
+      title:       邵刚勤，张安乐，<u>谢贵震</u>，朱璨，顾佳妮，晏佳礼，马霏霏，范书豪，毛家威，一种高纯度X型六角锶钴铁氧体材料的制备方法，中国发明专利201710304747.X，2017.5.3申请
+    - time:        2017-05-03
+      title:       邵刚勤，马霏霏，毛家威，范书豪，朱璨，张安乐，<u>谢贵震</u>，顾佳妮，晏佳礼，一种高温稳定的相变型氟硫酸铁锂电池材料的制备方法及电极片与锂离子电池的使用方法，中国发明专利201710305189.9，2017.5.3申请
+    - time:        2017-05-03
+      title:       邵刚勤，范书豪，毛家威，马霏霏，朱璨，张安乐，<u>谢贵震</u>，晏佳礼，顾佳妮，一种氟氧磷酸盐锂离子电池材料的制备方法及正极片与锂离子电池，中国发明专利201710304314.4，2017.5.3申请
+
+# Scholarships & Achievement
+scholarship:
+  - time:          unknown time
+    title:         The Third Prize Scholarship
+  - time:          2017-09-01
+    title:         hello world
+achievement:
+  - time:          unknown time
+    title:         The Second Prize (as the group leader) of Competition on Synthesis of Functional Materials
+  - time:          2017-09-01
+    title:         learn python the hard way
+
+# Activities
+activity:
+  display:        true
+  hobby:          [soccer(Fullback), basketball(Guard), badminton, snooker pool, swimming(freestyle and backstroke), Chinese calligraphy, reading classic novels, photography]
+  experience:
+    -             Travelling footprints left over 10 provinces, over 100 railway tickets
+    -             co-managing a YHA with my friend in Lhasa, Tibet
+  
+
