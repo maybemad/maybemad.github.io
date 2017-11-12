@@ -83,18 +83,6 @@ publication:
   - time:          submitted
     title:         S.-H. Fan, G.-Q. Shao, J.-W. Mao, F.-F. Ma, C. Zhu, A.-L. Zhang, <u>G.-Z. Xie</u>, J.-L. Yan and J.-N. Gu, Crystal structure and electrochemical properties of LiFe$_{1-x}$V$_x$PO$_4$F$_{1-δ}$O$_δ$ cathode materials for lithium-ion batteries, Electrochimica Acta
 
-# Patents
-patent:
-  display:         false
-  list:
-    - time:        2017-08-31
-      title:       邵刚勤，柳金华，毛家威，<u>谢贵震</u>，范书豪，马霏霏，张安乐，“一种高温稳定的氟磷酸铁锂型锂离子电池材料及其制备方法”，中国发明专利201610226791.9，2016.4.14申请，公开号CN 105914344A，公开日2016.08.31
-    - time:        2017-05-03
-      title:       邵刚勤，张安乐，<u>谢贵震</u>，朱璨，顾佳妮，晏佳礼，马霏霏，范书豪，毛家威，一种高纯度X型六角锶钴铁氧体材料的制备方法，中国发明专利201710304747.X，2017.5.3申请
-    - time:        2017-05-03
-      title:       邵刚勤，马霏霏，毛家威，范书豪，朱璨，张安乐，<u>谢贵震</u>，顾佳妮，晏佳礼，一种高温稳定的相变型氟硫酸铁锂电池材料的制备方法及电极片与锂离子电池的使用方法，中国发明专利201710305189.9，2017.5.3申请
-    - time:        2017-05-03
-      title:       邵刚勤，范书豪，毛家威，马霏霏，朱璨，张安乐，<u>谢贵震</u>，晏佳礼，顾佳妮，一种氟氧磷酸盐锂离子电池材料的制备方法及正极片与锂离子电池，中国发明专利201710304314.4，2017.5.3申请
 
 # Activities
 activity:

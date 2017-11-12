@@ -63,21 +63,6 @@ layout: page
 <!-- End Performance -->
 {% endif %}
 
-{% if site.stdtest.display %}
-<!-- Begin TOEFL & GRE -->
-<div class="entry">
-  <h2>TESTS</h2>
-  <div class="content">
-    <h3>TOEFL</h3>
-    <p>{{ site.stdtest.toefl }}</p>
-  </div>
-  <div class="content">
-    <h3>GRE</h3>
-    <p>{{ site.stdtest.gre }}</p>
-  </div>
-</div>
-<!-- End TOEFL & GRE -->
-{% endif %}
 
 <!-- Begin Experience -->
 <div class="entry">
@@ -96,6 +81,7 @@ layout: page
   {% endfor %}
 </div>
 <!-- End Experience -->
+
 
 {% if site.skill.display %}
 <!-- Begin Skills -->
@@ -126,21 +112,21 @@ layout: page
 </div>
 <!-- End Publications -->
 
-{% if site.patent.display %}
-<!-- Begin Patents -->
+{% if site.stdtest.display %}
+<!-- Begin TOEFL & GRE -->
 <div class="entry">
-  <h2>PATENTS</h2>
-  {% for pat in site.patent.list %}
+  <h2>TESTS</h2>
   <div class="content">
-    <h3>{{ pat.time }}</h3>
-    <p>{{ pat.title }}</p>
+    <h3>TOEFL</h3>
+    <p>{{ site.stdtest.toefl }}</p>
   </div>
-  {% endfor %}
+  <div class="content">
+    <h3>GRE</h3>
+    <p>{{ site.stdtest.gre }}</p>
+  </div>
 </div>
-<!-- End Patents -->
+<!-- End TOEFL & GRE -->
 {% endif %}
-
-
 
 {% if site.activity.display %}
 <!-- Begin Activities -->
