@@ -140,29 +140,7 @@ layout: page
 <!-- End Patents -->
 {% endif %}
 
-<!-- Begin Scholarships & Achievement -->
-<div class="entry">
-  <h2>ACHIEVEMENT</h2>
-  <div class="content">
-    <h3>Scholarships</h3>
-    <ul class="info">
-    {% for sch in site.scholarship %}
-    <li>{{ sch.title }} <br />
-      <em>{{ sch.time }}</em></li>
-    {% endfor %}
-    </ul>
-  </div>
-  <div class="content">
-    <h3>Achievement</h3>
-    <ul class="info">
-    {% for ach in site.achievement %}
-    <li>{{ ach.title }} <br />
-      <em>{{ ach.time }}</em></li>
-    {% endfor %}
-    </ul>
-  </div>
-</div>
-<!-- End Scholarships & Achievement -->
+
 
 {% if site.activity.display %}
 <!-- Begin Activities -->
