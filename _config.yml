@@ -26,8 +26,8 @@ info:
   avatar:          images/image.jpg
   name:            Zilu Tang
   description:     I'm a drinker
-  address:         Wuhan University Wuhan, China
-  email:           tangziluwh@163.com
+  address:         Wuhan University, Wuhan, China
+  email:           tangzilu@whu.edu.cn
   tel:             +86-15207175816
   web:             www.maybemad.github.io
 
@@ -43,11 +43,16 @@ education:
     school:        College of Chemistry and Molecular Sciences
   
 
-# Performance
+# Skills
 performance:
-  display:         false
-  gpa:             3.99
-  rank:            1/1000
+  display:         true
+  Instuments handled:   
+   -               300 MHz NMR spectrometer       
+   -               HPLC, GC, and GC-MS     
+  Data analysis: 
+   -               Experience of interpreting 1H, 13C, HMQC NMR spectroscopy
+   -               Experience of interpreting GC and GC-MS spectroscopy
+
 
 # TOEFL & GRE
 stdtest:
@@ -61,35 +66,27 @@ experience:
     institute:     Green Catalysis Institution (College of Chemistry and Molecular Sciences, Wuhan University)
     desc:          Prof. Aiwen Lei
     project:
-      -            Synthesis and properties analysis of Lithium Ion Batteries and SrMgF$_4$ 
-      -            Study the formation mechanism of hexagonal ferrite Sr$_3$Co$_2$Fe$_{24}$O$_{41}$ pure phase
-      -            Investigating the optimization of SrMgF$_4$ 
-  
+      -            Transition-metal-catalyzed oxidative coupling reactions  
+      -            Visible-light mediated photocatalysis  
+      
 
-# Skills
-skill:
-  display:        true 
-  software:       [Word, Excel, PowerPoint, Origin, Chem3D, Chemdraw ]
   
 
 # Publications
 publication:
-  - time:          2017-04-18
-    title:         Zhang, G.H.; <b>Yi, H.</b>; Zhang, G.T.; Deng, Y.; Bai, R.P.; Zhang, H.; Miller, J.T.; Kropf, A.J.; Bunel, E.E.; Lei, A.W., <i> J Am Chem Soc</i> <b>2014</b>, 136, 924-926.
-  - time:          2017-03-20
-    title:         G.-Q. Shao, F.-F. Ma, J.-W. Mao, S.-H. Fan, A.-L. Zhang, <u>G.-Z. Xie</u>, C. Zhu, J.-N. Gu, J.-L. Yan, Crystal Structure of triplite LiFeSO$_4$F, CSD-432778, Inorganic Crystal Structure Database, FIZ Karlsruhe-Leibniz Inst. for Inform. Infrastr., Germany, 2017.3.20
-  - time:          submitted
-    title:         F.-F. Ma, J.-W. Mao, G.-Q. Shao, S.-H. Fan, C. Zhu, A.-L. Zhang, <u>G.-Z. Xie</u>, J.-N. Gu, and J.-L. Yan, Structure of triplite LiFeSO$_4$F powder synthesized through an ambient two-step solid-state route, Powder Diffraction
-  - time:          submitted
-    title:         S.-H. Fan, G.-Q. Shao, J.-W. Mao, F.-F. Ma, C. Zhu, A.-L. Zhang, <u>G.-Z. Xie</u>, J.-L. Yan and J.-N. Gu, Crystal structure and electrochemical properties of LiFe$_{1-x}$V$_x$PO$_4$F$_{1-δ}$O$_δ$ cathode materials for lithium-ion batteries, Electrochimica Acta
+  - time:          2017-05-24
+    title:         H. Yi.; H. Chen.; C.-L. Bian.; <b>Z.-L. Tang.</b>; A. Singh.; X.-T. Qi.; X.-Y. Yue.; Y. Lan.; J.-F. Lee.; and A.-W. Lei.; <i>Chem. Commun.</i> <b>2017</b>,53, 6736-6739. 
+  - time:          2017-07-13
+    title:         H. Yi.; <b>Z.-L. Tang.</b>; C.-L. Bian.; H. Chen.; X.-T. Qi.; X.-Y. Yue.; Y. Lan.; J.-F. Lee.; and A.-W. Lei.;<i>Chem. Commun.</i>, <b>2017</b>,53, 8984-8987
+  
 
 
 # Activities
 activity:
   display:        true
-  hobby:          [table tennis, Dota2]
+  hobby:          [hiking, table tennis, Dota2]
   experience:
-    -             Travelling footprints left over 10 provinces, over 100 railway tickets
-    -             co-managing a YHA with my friend in Lhasa, Tibet
+    -             Travelling footprints left over 20 cities
+    
   
 
