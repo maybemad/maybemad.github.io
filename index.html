@@ -47,17 +47,21 @@ layout: page
 </div>
 <!-- End Education -->
 
-{% if site.Skills.display %}
+{% if site.skills.display %}
 <!-- Begin Skills -->
 <div class="entry">
   <h2>SKILLS</h2>
   <div class="content">
     <h3>Instuments handled</h3>
-    <p>{{ site.Skills.Instuments handled }}</p>
+    {% for sk in site.skills.ih %}
+    <p>{{ sk }}</p>
+    {% endfor %}
   </div>
   <div class="content">
     <h3>Data analysis</h3>
-    <p>{{ site.Skills.Data analysis }}</p>
+    {% for sk in site.skills.da %}
+    <p>{{ sk }}</p>
+    {% endfor %}
   </div>
 </div>
 <!-- End Skills -->
