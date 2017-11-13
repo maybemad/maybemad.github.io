@@ -50,6 +50,7 @@ layout: page
 {% if site.Skills.display %}
 <!-- Begin Skills -->
 <div class="entry">
+  <h2>SKILLS</h2>
   <div class="content">
     <h3>Instuments handled</h3>
     <p>{{ site.Skills.Instuments handled }}</p>
@@ -59,7 +60,7 @@ layout: page
     <p>{{ site.Skills.Data analysis }}</p>
   </div>
 </div>
-<!-- End Performance -->
+<!-- End Skills -->
 {% endif %}
 
 
@@ -81,23 +82,6 @@ layout: page
 </div>
 <!-- End Experience -->
 
-
-{% if site.skill.display %}
-<!-- Begin Skills -->
-<div class="entry">
-  <h2>SKILLS</h2>
-  <div class="content">
-    <h3>Software Knowledge</h3>
-    <ul class="skills">
-      {% for sft in site.skill.software %}
-      <li>{{ sft }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  
-</div>
-<!-- End Skills -->
-{% endif %}
 
 <!-- Begin Publications -->
 <div class="entry">

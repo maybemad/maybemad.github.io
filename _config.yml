@@ -46,10 +46,10 @@ education:
 # Skills
 Skills:
   display:         true
-  Instuments handled:   
+  - Instuments handled:   
    -               300 MHz NMR spectrometer       
    -               HPLC, GC, and GC-MS     
-  Data analysis: 
+  - Data analysis: 
    -               Experience of interpreting 1H, 13C, HMQC NMR spectroscopy
    -               Experience of interpreting GC and GC-MS spectroscopy
 
