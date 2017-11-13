@@ -25,16 +25,11 @@ mathjax:            true
 info:
   avatar:          images/image.jpg
   name:            Zilu Tang
-  description:     I'm a drinker
   address:         Wuhan University, Wuhan, China
   email:           tangzilu@whu.edu.cn
   tel:             +86-15207175816
   web:             www.maybemad.github.io
 
-# Intro
-intro:
-  display:         false
-  content:         
 
 # Education
 education:
