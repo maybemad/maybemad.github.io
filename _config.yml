@@ -23,7 +23,7 @@ mathjax:            true
 
 # Personal Info
 info:
-  avatar:          images/fucku.png
+  avatar:          images/photo.jpg
   name:            Zilu Tang
   address:         Wuhan University, Wuhan, China
   email:           tangzilu@whu.edu.cn
@@ -70,11 +70,13 @@ experience:
 # Publications
 publication:
   - time:          2017-05-24
-    title:         H. Yi.; H. Chen.; C.-L. Bian.; <b>Z.-L. Tang.</b>; A. Singh.; X.-T. Qi.; X.-Y. Yue.; Y. Lan.; J.-F. Lee.; and A.-W. Lei.; <i>Chem. Commun.</i> <b>2017</b>,53, 6736-6739. 
+    title:         H. Yi.; H. Chen.; C.-L. Bian.; <b>Z.-L. Tang.</b>; A. Singh.; X.-T. Qi.; X.-Y. Yue.; Y. Lan.; J.-F. Lee.; and A.-W. Lei.; Coordination strategy-induced selective C–H
+amination of 8-aminoquinolines, <i>Chem. Commun.</i> <b>2017</b>,53, 6736-6739. 
     image:         images/doc1.jpg
   - time:          2017-07-13
-    title:         H. Yi.; <b>Z.-L. Tang.</b>; C.-L. Bian.; H. Chen.; X.-T. Qi.; X.-Y. Yue.; Y. Lan.; J.-F. Lee.; and A.-W. Lei.;<i>Chem. Commun.</i>, <b>2017</b>,53, 8984-8987
-    image:         images/doc2.jpg
+    title:         H. Yi.; <b>Z.-L. Tang.</b>; C.-L. Bian.; H. Chen.; X.-T. Qi.; X.-Y. Yue.; Y. Lan.; J.-F. Lee.; and A.-W. Lei.; Oxidation-induced C–H amination leads to a new
+avenue to build C–N bonds, <i>Chem. Commun.</i>, <b>2017</b>,53, 8984-8987
+    image:         images/doc2.png
   
 
 
