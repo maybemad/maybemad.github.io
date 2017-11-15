@@ -1,10 +1,10 @@
 # Site settings
-title:              the CV template
-author:             your name
-email:              you email
+title:              Zilu Tang's CV 
+author:             Zilu Tang
+email:              tangzilu@whu.edu.cn
 description:        desc
 keywords:           [kw1, kw2, kw3]
-url:                http://mageluer.coding.me/CV
+url:                http://maybemad.github.io
 
 # Jekyll
 markdown:           kramdown
